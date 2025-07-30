@@ -9,8 +9,7 @@ import io
 # --- Model and Tokenizer Configuration ---
 # We are defining the model path directly here for simplicity.
 # This model is powerful but requires significant resources (GPU recommended).
-CHECKPOINT_PATH = "Qwen2.5-7B-Instruct-1M"
-#CHECKPOINT_PATH = "Hebrew-Mistral-7B"
+CHECKPOINT_PATH = "Llama-3.1-8B"
 
 def _get_args():
     parser = ArgumentParser(description="Qwen2.5-Instruct web chat demo.")
