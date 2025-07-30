@@ -42,6 +42,7 @@ Example:
 <img width="669" height="318" alt="image" src="https://github.com/user-attachments/assets/82646a28-c8d6-4f10-95a4-9bb84389289a" />
 <img width="669" height="746" alt="image" src="https://github.com/user-attachments/assets/882ead4c-78cb-4d39-94cf-dd394ba792b1" />
 
-  When LLM uses CPU, it will make use of all the available CPU cores on the hosting node.
-![bpytop-llm](https://github.com/user-attachments/assets/c70c3097-06a5-42b0-ac2c-66b74dba6a2e)
+🔺 When LLM uses CPU, it will make use of all the available CPU cores on the hosting node.
+![bpytop-llm](https://github.com/user-attachments/assets/74778045-b1a4-4ea3-a602-e7e86cc10d07)
+
 
