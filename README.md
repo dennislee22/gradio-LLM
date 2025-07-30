@@ -24,13 +24,13 @@ Example:
 
 4. Ensure [run-gradio.py](run-gradio.py) and [app-gradio.py](app-gradio.py) scripts are in the CAI project.
 
-5. Specify the LLM of your choice in [app-gradio.py](app-gradio.py).
+5. Specify the LLM `modelname` of your choice in [run-gradio.py](run-gradio.py).
 Example:
   ```
-  CHECKPOINT_PATH = "Llama-3.1-8B"
+  os.system("python app-gradio.py --server-name=127.0.0.1 --checkpoint-path=modelname--server-port=$CDSW_APP_PORT > gradio.log 2>&1")
   ```
 
-6. Specify if this LLM is running using cpu or cuda.
+6. Specify if LLM is running using cpu or cuda in [app-gradio.py](app-gradio.py).
   ```
   device_map = "cpu"
   ```
@@ -39,6 +39,9 @@ Example:
 <img width="456" height="734" alt="image" src="https://github.com/user-attachments/assets/69ba8fb5-3b7e-4953-91f7-728f561332f3" />
 
 8. Start the application. Browse the exposed URL endpoint.
+<img width="669" height="318" alt="image" src="https://github.com/user-attachments/assets/82646a28-c8d6-4f10-95a4-9bb84389289a" />
+<img width="669" height="746" alt="image" src="https://github.com/user-attachments/assets/882ead4c-78cb-4d39-94cf-dd394ba792b1" />
 
   When LLM uses CPU, it will make use of all the available CPU cores on the hosting node.
+![bpytop-llm](https://github.com/user-attachments/assets/c70c3097-06a5-42b0-ac2c-66b74dba6a2e)
 
