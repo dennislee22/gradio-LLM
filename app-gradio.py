@@ -125,7 +125,7 @@ def build_chatbot_ui(model, tokenizer):
         gr.Markdown(
             """
             <div style="text-align: center;">
-                <h1>📊 Mirazhi Chatbot</h1>
+                <h1>📊 dennislee CSV Analysis Chatbot</h1>
                 <p>Upload a CSV file, and then ask questions about its content. The model will analyze the data summary to provide answers.</p>
             </div>
             """
