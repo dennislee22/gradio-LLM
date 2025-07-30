@@ -23,7 +23,7 @@ Example:
   git lfs clone https://huggingface.co/meta-llama/Llama-3.1-8B
   ```
 
-4. Ensure [run-gradio.py](run-gradio.py) and [app-gradio.py](app-gradio.py) scripts are in the CAI project.
+4. Download the [run-gradio.py](run-gradio.py) and [app-gradio.py](app-gradio.py) scripts into the newly created CAI project.
 
 5. Specify the LLM of your choice in [run-gradio.py](run-gradio.py). Example: Llama-3.1-8B
 Example:
