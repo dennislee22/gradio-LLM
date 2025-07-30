@@ -45,10 +45,12 @@ Example:
 <img width="669" height="700" alt="image" src="https://github.com/user-attachments/assets/e5ef889a-f491-45fe-878a-fa299b566aef" />
 
 🔺 When LLM uses CPU, it will make use of all the available CPU cores on the hosting node.
+
 ![bpytop-llm](https://github.com/user-attachments/assets/74778045-b1a4-4ea3-a602-e7e86cc10d07)
 
 🔺 Memory consumption:
-<img width="669" height="587" alt="image" src="https://github.com/user-attachments/assets/e8fdf550-e413-4396-ba0a-63cc10e1a9fb" />
+
+<img width="700" height="587" alt="image" src="https://github.com/user-attachments/assets/e8fdf550-e413-4396-ba0a-63cc10e1a9fb" />
 
 
 
