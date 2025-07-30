@@ -24,10 +24,10 @@ Example:
 
 4. Ensure [run-gradio.py](run-gradio.py) and [app-gradio.py](app-gradio.py) scripts are in the CAI project.
 
-5. Specify the LLM `modelname` of your choice in [run-gradio.py](run-gradio.py).
+5. Specify the LLM of your choice in [run-gradio.py](run-gradio.py). Example: Llama-3.1-8B
 Example:
   ```
-  os.system("python app-gradio.py --server-name=127.0.0.1 --checkpoint-path=modelname--server-port=$CDSW_APP_PORT > gradio.log 2>&1")
+  os.system("python app-gradio.py --server-name=127.0.0.1 --checkpoint-path=Llama-3.1-8B --server-port=$CDSW_APP_PORT > gradio.log 2>&1")
   ```
 
 6. Specify if LLM is running using cpu or cuda in [app-gradio.py](app-gradio.py).
