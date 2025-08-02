@@ -1,7 +1,6 @@
 # LLM Chatbot with Gradio
 
-![gradio-LLM](https://github.com/user-attachments/assets/8b309f74-4781-4ea4-85e0-92a0898fbbfc)
-
+![gradio-csv-llm](https://github.com/user-attachments/assets/3230a181-3832-41e4-b9a8-2327d48bbb8b)
 
 ## Platform Requirement
 ☑️ Python 3.11
@@ -42,7 +41,7 @@ Example:
 8. Start the application. Browse the exposed URL endpoint.
 <img width="669" height="318" alt="image" src="https://github.com/user-attachments/assets/82646a28-c8d6-4f10-95a4-9bb84389289a" />
 
-<img width="669" height="700" alt="image" src="https://github.com/user-attachments/assets/e5ef889a-f491-45fe-878a-fa299b566aef" />
+<img width="1235" height="700" alt="image" src="https://github.com/user-attachments/assets/d253472a-8b4b-4f19-bd76-a648a5784d4d" />
 
 🔺 When LLM uses CPU, it will make use of all the available CPU cores on the hosting node.
 
